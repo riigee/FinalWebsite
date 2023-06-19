@@ -5,7 +5,6 @@ function ColumnRight ({ title, description}) {
         <div className="column-right">
             <h2>{title}</h2>
             <p>{description}</p>
-
         </div>
     );
 }

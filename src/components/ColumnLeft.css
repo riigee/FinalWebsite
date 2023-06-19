@@ -15,6 +15,17 @@
     margin-bottom: 0.2em;
     font-size: larger;
 }
+.column-site h3 {
+    margin-top: 0.7em;
+    margin-bottom: 0.4em;
+    font-size: larger;
+}
+.column-site h4 {
+    border-bottom: 2px solid orange;
+    margin-top: 0.7em;
+    margin-bottom: 0.2em;
+    font-size: larger;
+}
 .column-site p {
     margin: 0.4em 0;
     font-size: large;
