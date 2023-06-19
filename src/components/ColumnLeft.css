@@ -1,0 +1,27 @@
+.column-site {
+    background-color: rgb(255, 238, 207);
+    display: inline-block;
+    width: 25%;
+    height: auto;
+    border: 3px solid rgb(255, 204, 109);
+    flex-direction: column;
+    padding: 0.5em;
+    margin-top: 1em;
+    box-shadow: 0 4px 5px -5px rgb(78, 78, 78);
+}
+.column-site h2 {
+    margin-top: 0.3em;
+    margin-bottom: 0.2em;
+    font-size: larger;
+}
+.column-site p {
+    margin: 0.4em 0;
+    font-size: large;
+}
+.column-site .top{
+    margin-top: 0.3em;
+    border-bottom: 1px solid orange;
+    display: flex;
+    flex-direction: column;
+    align-content: baselines;
+}
