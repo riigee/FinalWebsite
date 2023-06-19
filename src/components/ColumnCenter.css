@@ -1,0 +1,22 @@
+.column-center {
+    background-color: rgb(255, 247, 231);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 28%;
+    width: 42%;
+    height: auto;
+    border: 3px solid rgb(192, 125, 0);
+    padding: 0.5em;
+    margin-top: 1em;
+    box-shadow: 0 4px 5px -5px rgb(78, 78, 78);
+}
+.column-center h1 {
+    margin-top: 0.3em;
+    margin-bottom: 0.2em;
+    font-size: x-large;
+}
+.column-center p {
+    margin: 0.4em 0;
+    font-size: large;
+}
