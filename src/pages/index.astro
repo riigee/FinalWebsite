@@ -1,6 +1,8 @@
 ---
 import BlogLayout from '../layouts/BlogLayout.astro';
 import ColumnLeft from "../components/ColumnLeft.jsx";
+import ColumnRight from "../components/ColumnRight.jsx";
+import Counter from "../components/Counter.jsx";
 ---
 
 <BlogLayout title="Gerard's Blog">
@@ -9,4 +11,12 @@ import ColumnLeft from "../components/ColumnLeft.jsx";
 	description="Some of the most recent news over the world"
 	date="15-06-2023"
 	/>
+
+	<ColumnRight
+	title="Donations!"
+	description="If you like my blog and the work I do, donations are highly appreciated as they help me keeping this site running. Thanks!"
+	/>
+
+	
+	<Counter client:load />
 </BlogLayout>
