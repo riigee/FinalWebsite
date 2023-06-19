@@ -17,7 +17,25 @@
     margin-bottom: 0.2em;
     font-size: larger;
 }
+.column-right h3 {
+    margin-top: 0.3em;
+    margin-bottom: 0.2em;
+    font-size: x-large;
+    border-top: 2px solid orange;
+}
 .column-right p {
     margin: 0.4em 0;
     font-size: large;
+}
+.column-right .Insta{
+    text-decoration: none;
+    color: palevioletred;
+}
+.column-right .Twt{
+    text-decoration: none;
+    color: rgb(0, 187, 255);
+}
+.column-right .Face{
+    text-decoration: none;
+    color: rgb(0, 26, 255);
 }
