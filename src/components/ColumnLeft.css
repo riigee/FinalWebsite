@@ -1,6 +1,7 @@
 .column-site {
     background-color: rgb(255, 238, 207);
-    display: inline-block;
+    display: flex;
+    float: left;
     width: 25%;
     height: auto;
     border: 3px solid rgb(255, 204, 109);

@@ -1,0 +1,23 @@
+.column-right {
+    background-color: rgb(255, 226, 172);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 73%;
+    width: 25%;
+    height: auto;
+    border: 3px solid rgb(255, 189, 66);
+    padding: 0.5em;
+    margin-top: 1em;
+    margin-right: 2em;
+    box-shadow: 0 4px 5px -5px rgb(78, 78, 78);
+}
+.column-right h2 {
+    margin-top: 0.3em;
+    margin-bottom: 0.2em;
+    font-size: larger;
+}
+.column-right p {
+    margin: 0.4em 0;
+    font-size: large;
+}
