@@ -22,6 +22,12 @@
     border-top: 3px solid rgb(192, 125, 0);
     font-size: x-large;
 }
+.column-center h3 {
+    margin-top: 0.4em;
+    margin-bottom: 0.2em;
+    border-top: 1px solid rgb(192, 125, 0);
+    font-size: larger;
+}
 .column-center p {
     margin: 0.4em 0;
     font-size: large;
