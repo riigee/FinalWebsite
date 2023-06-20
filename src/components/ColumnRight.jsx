@@ -1,6 +1,6 @@
 import './ColumnRight.css';
 
-function ColumnRight ({ title, description, email, title1, description1,urlI,urlT,urlF}) {
+function ColumnRight ({ title, description, email, title1, description1,urlI,urlT,urlF, title2, description2}) {
     return(
         <div className="column-right">
             <h2>{title}</h2>
@@ -12,6 +12,9 @@ function ColumnRight ({ title, description, email, title1, description1,urlI,url
 
             <p>{email}</p>
             
+            <h3>{title2}</h3>
+            <p>{description2}</p>
+
             <h3>{title1}</h3>
             <p>{description1}</p>
 
