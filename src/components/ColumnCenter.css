@@ -16,6 +16,12 @@
     margin-bottom: 0.2em;
     font-size: x-large;
 }
+.column-center h2 {
+    margin-top: 0.8em;
+    margin-bottom: 0.4em;
+    border-top: 3px solid rgb(192, 125, 0);
+    font-size: x-large;
+}
 .column-center p {
     margin: 0.4em 0;
     font-size: large;
