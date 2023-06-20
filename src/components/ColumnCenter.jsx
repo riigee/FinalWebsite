@@ -15,7 +15,7 @@ function ColumnCenter ({ title, description,title1, title2}) {
             <h2>{title2}</h2>
             <p>Now I want to talk about my experience after all these four years in university and what to expect for the future.</p>
             <p>The first year was the most complicated one, as everything was new to me and the difficulty change from bachelor's degree to university level was huge. Anyways, after a period of adaptation, I started to feel more comfortable and the grades started going up again.</p>
-            <p>The most important change was getting to class from Barcelona, as it is and hour and a half away from my home using public transportation. Travelling home I also met some class colleagues and had a lot of fun with them, so it was not so bad. I am very grateful of all the people I met during these four years.</p>
+            <p>The most important change was getting to class from Barcelona, as it is an hour and a half away from my home using public transportation. Travelling home I also met some class colleagues and had a lot of fun with them, so it was not so bad. I am very grateful of all the people I met during these four years.</p>
             <p>I will lie if I told you that it wasn't though, but at the same time it was a rewarding experience every time you passed a subject, as the level proposed in every class was very high. If you are curious about it, you can check my grades <a href="/grades">here</a>.</p>
         </div>
     );
