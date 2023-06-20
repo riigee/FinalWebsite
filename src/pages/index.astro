@@ -4,19 +4,22 @@ import ColumnLeft from "../components/ColumnLeft.jsx";
 import ColumnRight from "../components/ColumnRight.jsx";
 import Counter from "../components/Counter.jsx";
 import ColumnCenter from "../components/ColumnCenter.jsx";
+import Comments from "../components/Comments.jsx";
 ---
 
 <BlogLayout title="Gerard's Blog">
 	<ColumnLeft
 	title="Latest News"
 	description="Some of the most recent news over the world"
-	date="15-06-2023"
+	date="17-06-2023"
 	title1="Canada Tragedy"
 	report1="A bus crashed into a truck this morning in a rural area in Manitoba. Fifteen people are dead and ten more were taken to a nearby hospital."
 	title2="Spain into the Nations League Final"
 	report2="After a thrilling game against Italy, the team coached by Luis de la Fuente got into the finals when Joselu Mato scored in the 88th minute the decisive 2-1."
 	title3="Water consumption is doubled in Barcelona"
 	report3="More than 25000 users around the metropolitan area of Barcelona have doubled their water consumption, mainly caused by an irresponsible use of water in houses with garden or swimming pools."
+	title4="Verstappen leads the way in a soaked track"
+	report4="The Dutch gets his fifth pole of the season in Canada, followed by Hulkenberg and Alonso in a spectacular qualifying under the rain of Montreal. If he can convert it into a win, it will be the 100th for the Red Bull team. If Alonso gets to the podium, he will surpass Kimi Räikkonen with 104 of them."
 	/>
 
 	<ColumnRight
@@ -38,4 +41,6 @@ import ColumnCenter from "../components/ColumnCenter.jsx";
 
 	
 	<Counter client:load />
+
+	<Comments client:load />
 </BlogLayout>
